@@ -41,7 +41,20 @@ public class C03MultiDimensionalArrays {
 
         String [][] brr = {{"Java", "is"},{"easy"},{"to","learn"}};
 
-
+        print2DArray(brr);
     }
 
-}
+    public static void print2DArray(String[][] array) {
+        for (int i = 0; i < array.length; i++) { // Iterate over rows
+            for (int j = 0; j < array[i].length; j++) { // Iterate over columns
+                System.out.print(array[i][j] + " ");
+            }
+            System.out.println(); // New line after each row
+
+
+        }
+
+        System.out.println("Continue tomorrow");
+
+    }
+    }

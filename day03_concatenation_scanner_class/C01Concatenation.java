@@ -7,7 +7,7 @@ public class C01Concatenation {
 
     /*Concatenation: It is the process of adding Strings or String with other data types
                      Its symbol is "+"
-                     To differentiate concatenation and additions just add "" (quotation)
+                     To differentiate concatenation and additions add "" (quotation)
                      eg: "3"+"4"
     */
 

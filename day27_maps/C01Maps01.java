@@ -19,7 +19,7 @@ public class C01Maps01 {
       Lion              Wild
       A                 23
       B                 15
-      C                 14}  = Whole list is called 'Entry Set'. 'Entry Set''s can use loops.
+      C                 14}  = Whole list is called 'Entry Set'. 'Entry Sets can use loops.
 
 
          */

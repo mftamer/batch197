@@ -9,7 +9,7 @@ public class C02TypeCasting {
 
         //If we change a data type of variable into a larger data type. It is called "Auto widening" in Java
         short yourAge = age;
-        System.out.println("yourAge = " + yourAge);
+        System.out.println("yourAge = " + yourAge); //yourAge = 35
 
         /* Explicit narrowing: Casting a large data type into smaller data type
                                Java doesn't do it in its own, so we have to do it explicitly
@@ -17,16 +17,16 @@ public class C02TypeCasting {
          */
         short height = 127;
         byte heightOfBuilding = (byte) height;
-        System.out.println(heightOfBuilding);
+        System.out.println(heightOfBuilding); //127
 
         //double has decimals, run and check it
         double height2 = height;
-        System.out.println("height2 = " + height2);
+        System.out.println("height2 = " + height2); //height2 = 127.0
 
         //Doesn't care after the decimal point 79.95 ==> 79. Java doesn't round in this case
         double weight = 79.95;
         short weight1 = (short) weight;
-        System.out.println("weight1 = " + weight1);
+        System.out.println("weight1 = " + weight1); //weight1 = 79
 
         // NOTE: When doing mathematical operations in java, if data types are same, results must have the same data type with the variables.
         // The result may not fit to the given data type; in this case, java will remove decimal parts.

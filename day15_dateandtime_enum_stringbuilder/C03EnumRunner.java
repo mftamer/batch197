@@ -8,8 +8,14 @@ public class C03EnumRunner {
 
     //Enum is used to store constant values...
 
-    String capital = UsStates.NEW_JERSEY.getCapital();
+    String capital = UsStates.ALABAMA.getCapital();
         System.out.println("capital = " + capital);
+
+        String sn = UsStates.ALABAMA.getStateName();
+        System.out.println("abb = " + sn);
+
+        String abb = UsStates.ALABAMA.getAbbreviation();
+        System.out.println("abb = " + abb);
 
 
 

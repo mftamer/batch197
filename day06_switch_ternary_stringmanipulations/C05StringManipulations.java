@@ -46,7 +46,7 @@ public class C05StringManipulations {
         //"toM Hanks" ---> TH
         //"tOm hAnKs" ---> TH
 
-        //To get certain piece use substring
+        //To get a certain piece use substring
         String name2 = "tOm hAnKs";
         System.out.println(name2.substring(0, 1)); //t             (0,1) --> 0 is included 1 is excluded
         System.out.println(name2.substring(1, 5)); //Om h          t -->0  O--->1 m--->3 ....etc...
@@ -58,7 +58,7 @@ public class C05StringManipulations {
 
         // How to get initial of the second letter with examples
         //Split is to cut the string from given place
-        System.out.println(name2.split(" ")[1]); //hAnKs ---> Will cut from space(blank), [1] is is index 1 and it starts from 0.
+        System.out.println(name2.split(" ")[1]); //hAnKs ---> Will cut from space(blank),[1] is is index 1,and it starts from 0.
         System.out.println(name2.split(" ")[0]); //tOm
         System.out.println(name2.split("m")[0]); //tO
         System.out.println(name2.split("m")[1]); // hAnKs
@@ -67,13 +67,13 @@ public class C05StringManipulations {
         System.out.println(name2.split("A")[1]); //nKs
 
         String secondInitial = name2.split(" ")[1].substring(0,1).toUpperCase();
-        System.out.println(firstInitial+secondInitial);
+        System.out.println(firstInitial+secondInitial); //TH
 
         //Trim methods. If you have space before or after the names. for eg: "   tOm hAnKs   "
         String name3 = "   tOm hAnKs   ";
 
         String trimFirstInitial = name3.trim().substring(0, 1).toUpperCase();
-
+        System.out.println("trimFirstInitial = " + trimFirstInitial); //trimFirstInitial = T
 
     }
 

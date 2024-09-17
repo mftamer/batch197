@@ -42,7 +42,7 @@ public class C01DateAndTime01 {
         System.out.println("currentDate1 = " + currentDate1);
 
         DateTimeFormatter dt2 = DateTimeFormatter.ofPattern("MMMM/dd/yyyy"); //currentDate12 = October/15/2023
-        String currentDate12 = dt.format(myDate);
+        String currentDate12 = dt2.format(myDate);
         System.out.println("currentDate12 = " + currentDate12);
 
         //How to find date in another place:

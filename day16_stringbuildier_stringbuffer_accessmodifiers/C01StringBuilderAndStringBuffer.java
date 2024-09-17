@@ -51,9 +51,9 @@ public class C01StringBuilderAndStringBuffer {
         stateAbbr.append("FL").append("Why").append("Fatih"); //capacity is 18 ---> 8*2+2
         System.out.println("a.length() = " + a.length());
         System.out.println("a.capacity() = " + a.capacity());
-        System.out.println("stateAbbr.capacity() = " + stateAbbr.capacity()); // extra capacity = currentcapacity*2 +2 when there are multiple appends;
+        System.out.println("stateAbbr.capacity() = " + stateAbbr.capacity()); // extra capacity = current capacity*2 +2 when there are multiple appending;
         System.out.println("stateAbbr.length() = " + stateAbbr.length());
-        //If there is only one append and exceeds capacity, it adds whatever capacity it needs.
+        //If there is only one appending and exceeds capacity, it adds whatever capacity it needs.
 
         /* SOME EXAMPLES
         StringBuilder stateAbbr = new StringBuilder(3);
@@ -64,7 +64,7 @@ public class C01StringBuilderAndStringBuffer {
         stateAbbr.append("123456789").append("1"); // capacity is 20 and length is 10
          */
 
-        //If they as you to reverse a word, let them use StringBuilder nad reverse method. If they say no use for loop methods
+        //If they ask you to reverse a word, let them use StringBuilder and reverse method.If they say no use for loop methods,
         //FAMOUS INTERVIEW QUESTION ^^^^^
 
         a.reverse();

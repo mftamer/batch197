@@ -17,7 +17,7 @@ public class C03TernaryOperator01 {
 
         // You cant write like 99<num2<1000. Java does not know what is this.
 
-        //Example 3: Write a code to calculate  absolute value of a number
+        //Example 3: Write a code to calculate the absolute value of a number
         int num3 = -3;
         int result3 = (num3<0) ? -1*num3 : num3;
         System.out.println(result3);

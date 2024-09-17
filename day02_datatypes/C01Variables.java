@@ -3,7 +3,7 @@ package day02_datatypes;
 public class C01Variables {
 
     public static void main(String[] args) {
-        byte stdAge = 35; //byte is the shortest, therefore, it has less memory
+        byte stdAge = 35; //byte is the shortest; therefore, it has less memory
         System.out.println(stdAge);
 
         //3245
@@ -14,7 +14,7 @@ public class C01Variables {
         int populationOfMiami = 1200000; // third largest
         System.out.println(populationOfMiami);
 
-        //If a long variable is out of integer range limits, just add "L" to the end
+        //If a long variable is out of integer range limits, add "L" to the end
         long popOfWorld = 7000000000L;
         System.out.println(popOfWorld);
 

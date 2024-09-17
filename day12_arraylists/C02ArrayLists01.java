@@ -82,12 +82,12 @@ public class C02ArrayLists01 {
 
         cities.add("Miami");
         cities.add("New York");
-        cities.add("Tamba");
+        cities.add("Tampa");
         cities.add("Virginia");
 
         System.out.println(cities);
 
-        for (int i =0; i<cities.size(); i++){ //[Miami, New York, Tamba, Virginia]
+        for (int i =0; i<cities.size(); i++){ //[Miami, New York, Tampa, Virginia]
             if (cities.get(i).contains("a")){
                 cities.remove(cities.get(i)); //cities.remove(i)
                 i--;

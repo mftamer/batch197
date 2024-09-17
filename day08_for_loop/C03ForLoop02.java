@@ -14,15 +14,17 @@ public class C03ForLoop02 {
             }
 
         }
-        /*
+
+        System.out.println("2nd Way:");
+
         //Second Way
 
-        for (int i=6; i<18; i++){
+        for (int i=6; i<18; i+=2){
 
-            if(i){
+            System.out.print(i + " ");
 
             }
-            */
+
         System.out.println(" ");
         //Example 4: Type a code that prints all numbers between 6 and 17 but not 13.
 

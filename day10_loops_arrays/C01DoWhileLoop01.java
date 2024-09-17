@@ -44,7 +44,7 @@ public class C01DoWhileLoop01 {
         System.out.println("You Lost!");
 
 
-        //Select everything then click on forward slash, while holding ctrl, abd everything will be comment out
+        //Select everything then click on forward slash, while holding ctrl, and everything will be comment out
 
         //Second Way:
         do {

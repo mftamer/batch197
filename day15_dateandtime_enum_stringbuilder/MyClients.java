@@ -1,4 +1,4 @@
-package day15_dateandtime_enum_StringBuilder;
+package day15_dateandtime_enum_stringbuilder;
 public enum MyClients {
     MR_ADAM(43,"brown","meat"),
     MISS_JANE(12,"dfsds","sfgdh"),

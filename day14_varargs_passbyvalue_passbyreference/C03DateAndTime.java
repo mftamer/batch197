@@ -8,8 +8,8 @@ public class C03DateAndTime {
     public static void main(String[] args) {
 
         // How to get local date:
-        LocalDate myDate = LocalDate.now(); /*Obtains the current date from the system clock in the default time-zone.
-                                            This will query the system clock in the default time-zone to obtain the current date.
+        LocalDate myDate = LocalDate.now(); /*Gets the current date from the system clock in the default time-zone.
+                                            This will query the system clock in the default time-zone to get the current date.
                                             Using this method will prevent the ability to use an alternate clock for testing because the clock is hard-coded.
                                             Returns:
                                             the current date using the system clock and default time-zone, not null
@@ -41,7 +41,7 @@ public class C03DateAndTime {
         System.out.println("currentDate1 = " + currentDate1);
 
         DateTimeFormatter dt2 = DateTimeFormatter.ofPattern("MMMM/dd/yyyy"); //currentDate12 = October/15/2023
-        String currentDate12 = dt.format(myDate);
+        String currentDate12 = dt2.format(myDate);
         System.out.println("currentDate12 = " + currentDate12);
     }
 

@@ -18,7 +18,7 @@ public class C01StringManipulations02 {
         //Second Part
         String ccNum2 = ccNum.substring(15); //If only one index is given in substring, it will take everything after that index.
 
-        //Final Part - Adding part 1 and part 2 (Concatination)
+        //Final Part - Adding part 1 and part 2 (Concatenation)
         String hiddenccNum = ccNum1 + ccNum2; //First Method
         String hiddenccNum2 = ccNum1.concat(ccNum2); //Second method - concat() method
         System.out.println("hiddenccNum = " + hiddenccNum);

@@ -12,6 +12,7 @@ public class C01VarArgs {
         int r4 = add(3,7,5,3,4,98,65,32,1,11,23,43);
         System.out.println(r4);
         System.out.println(r3);
+        System.out.println(r2);
 
     }
     /*

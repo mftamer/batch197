@@ -3,7 +3,7 @@ package day16_stringbuildier_stringbuffer_accessmodifiers;
 public class C02AccessModifiers01 {
 
     /*
-        1) Access Modifiers are use dto modify who can access to data
+        1) Access Modifiers are used to modify who can access to data
         2) There are four types of access modifiers: Public > Protected > Default > Private
         3) Private access modifiers cannot be reached from other Classes
         4) Public data can be reached from anywhere

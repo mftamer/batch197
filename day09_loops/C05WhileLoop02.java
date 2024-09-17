@@ -47,8 +47,6 @@ public class C05WhileLoop02 {
 
 
 
-
-
     }
 
 

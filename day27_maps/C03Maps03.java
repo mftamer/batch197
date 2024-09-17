@@ -22,7 +22,7 @@ public class C03Maps03 {
         Hashtable<Integer, String> define = new Hashtable<>();
         define.put(1, "Baby");
         define.put(15, "Teenager");
-        define.put(56,"Senior");
+        define.put(56, "Senior");
         //define.put(56,null); gives exception error
         //define.put(0,"Senior"); gives exception error
 
@@ -32,8 +32,8 @@ public class C03Maps03 {
         TreeMap<Integer, String> define2 = new TreeMap<>();
         define2.put(1, "Baby");
         define2.put(15, "Teenager");
-        define2.put(56,"Senior");
-        define2.put(57,null);
+        define2.put(56, "Senior");
+        define2.put(57, null);
         //define2.put(null,"null"); throws NullPointerException
 
         System.out.println(define2); //{1=Baby, 15=Teenager, 56=Senior, 57=null}
@@ -42,7 +42,22 @@ public class C03Maps03 {
         //Homework: Create a method to display the number of occurrences of letters in a sentence
         //           Java, Java, I love Java. ==> J=3, a=6, v=4, I=1, l=1, o=1, e=1
 
+        String sentence = "Java, Java, I love Java.";
+        displayLetterOccurrences(sentence);
+    }
 
+        public static void displayLetterOccurrences(String sentence) {
+            TreeMap<Character, Integer> letterCount = new TreeMap<>();
+
+            for (char ch : sentence.toCharArray()) {
+                if (Character.isLetter(ch)) {
+                    letterCount.put(ch, letterCount.getOrDefault(ch, 0) + 1);
+                }
+            }
+
+            for (Character key : letterCount.keySet()) {
+                System.out.println(key + "=" + letterCount.get(key));
+            }
     }
 
 }

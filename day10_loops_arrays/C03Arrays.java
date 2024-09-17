@@ -66,9 +66,9 @@ public class C03Arrays {
         System.out.println(product);
 
         //Second Way: For Each Loop (Enhanced Loop) ---> works with Arrays and Collections
-                        //                         If you need to use indexes, you cannot use "For Each Loop"
+                        //                         If you need to use indexes, you cannot use it "For Each Loop"
 
-        int n=1; //for thr product
+        int n=1; //for the product
         for (int w:numbers){                //[12,5,4,2]
             n=n*w;
         }

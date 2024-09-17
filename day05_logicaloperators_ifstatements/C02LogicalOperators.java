@@ -29,7 +29,7 @@ public class C02LogicalOperators {
 
 
          /*
-        ------------------------- And Operator ----------------------
+        ------------------------- OR Operator ----------------------
 
                     Tea      and       Cake            Order
                      F        ||        T               T

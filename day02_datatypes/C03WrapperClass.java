@@ -27,8 +27,8 @@ public class C03WrapperClass {
 
 
         // We can find the maximum or minimum of int by using Wrapper Class methods.
-        System.out.println(Integer.MAX_VALUE);
-        System.out.println("Integer.MIN_VALUE = " + Integer.MIN_VALUE);
+        System.out.println(Integer.MAX_VALUE); //2147483647
+        System.out.println("Integer.MIN_VALUE = " + Integer.MIN_VALUE); //Integer.MIN_VALUE = -2147483648
 
         // We can find the maximum or minimum of the short data type by using Wrapper Class methods.
         System.out.println("Short.MAX_VALUE = " + Short.MAX_VALUE);
@@ -70,7 +70,7 @@ public class C03WrapperClass {
         //Homework
         String str2 = "99";
         int number = Integer.valueOf(str2);
-
+        System.out.println("str2 as int = " + number);
     }
 
 

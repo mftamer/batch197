@@ -41,9 +41,9 @@ public class C02StringManipulations03 {
             unique=unique + "o";
         }
 
-        System.out.println("unique = " + unique);
+        System.out.println("unique = " + unique); //unique = Heo
 
-        //pringln will go to next line but print will print right after the previous one
+        //println will go to the next line, but print will print right after the previous one
 
 
 

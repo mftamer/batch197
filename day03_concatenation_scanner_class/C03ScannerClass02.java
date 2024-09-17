@@ -6,8 +6,8 @@ public class C03ScannerClass02 {
 
     public static void main(String[] args) {
 
-        /*     Ask Full nem of user and print on the console
-               Create Scanner Class object */
+        /*     Ask Full num of user and print on the console
+               to Create a Scanner Class object */
 
         Scanner input = new Scanner(System.in); //click on scanner while writing sc and Java will import scanner class itself
 

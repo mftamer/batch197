@@ -17,7 +17,7 @@ public class C02PassByValuePassByReference {
 
 }
 
-/*pass by value: assignment operator and adjustments to value of variable does not change the
+/*Pass by value: assignment operator and adjustments to the value of variable do not change the
 value of variable in the main method. Java uses pass by value.*/
-/*pass by reference: assignment operator and adjustments to value of variable change the
- value of variable in the main method. some other programming languages use pass by reference*/
+/*Pass by reference: assignment operator and adjustments to the value of variable change the
+ value of variable in the main method. Some other programming languages use pass by reference*/
